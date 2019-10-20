@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -25,6 +26,32 @@ namespace Api3
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddAuthentication("token")
+                .AddIdentityServerAuthentication("token", options =>
+                {
+                    options.Authority = "http://localhost:47790";
+                    options.RequireHttpsMetadata = false;
+
+                    options.ApiName = "api1";
+                    options.ApiSecret = "secret";
+
+                    options.JwtBearerEvents = new Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents
+                    {
+                        OnTokenValidated = e =>
+                        {
+                            var jwt = e.SecurityToken as JwtSecurityToken;
+                            var type = jwt.Header.Typ;
+
+                            if (!string.Equals(type, "at+jwt", StringComparison.Ordinal))
+                            {
+                                e.Fail("JWT is not an access token");
+                            }
+
+                            return Task.CompletedTask;
+                        }
+                    };
+                });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,6 +64,8 @@ namespace Api3
 
             app.UseRouting();
 
+            
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

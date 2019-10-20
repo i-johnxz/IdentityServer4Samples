@@ -1,3 +1,6 @@
+using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -18,7 +21,33 @@ namespace ApiResource
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAuthorization().AddControllers()
+            services.AddControllers();
+            services.AddAuthentication("token")
+                .AddIdentityServerAuthentication("token", options =>
+                {
+                    options.Authority = "http://localhost:17222";
+                    options.RequireHttpsMetadata = false;
+
+                    options.ApiName = "api1";
+                    options.ApiSecret = "secret";
+
+                    options.JwtBearerEvents = new Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents
+                    {
+                        OnTokenValidated = e =>
+                        {
+                            var jwt = e.SecurityToken as JwtSecurityToken;
+                            var type = jwt.Header.Typ;
+
+                            if (!string.Equals(type, "at+jwt", StringComparison.Ordinal))
+                            {
+                                e.Fail("JWT is not an access token");
+                            }
+
+                            return Task.CompletedTask;
+                        }
+                    };
+                });
+            /*services.AddAuthorization().AddControllers()
                 .AddNewtonsoftJson();
 
             services.AddAuthentication("Bearer")
@@ -29,7 +58,7 @@ namespace ApiResource
                     options.RequireHttpsMetadata = false;
 
                     options.Audience = "api1";
-                });
+                });*/
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
