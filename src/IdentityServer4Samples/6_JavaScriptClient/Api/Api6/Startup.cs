@@ -37,6 +37,7 @@ namespace Api6
                     
                     options.ApiName = "api1";
                     options.ApiSecret = "secret"; 
+
                 });
 
             services.AddCors(options =>

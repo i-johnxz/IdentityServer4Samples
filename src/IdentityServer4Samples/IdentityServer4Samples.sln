@@ -55,43 +55,55 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResourceOwnerClient", "Reso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResourceOwnerClient3", "3_ImplicitFlowAuthentication\ResourceOwnerClient\ResourceOwnerClient3\ResourceOwnerClient3.csproj", "{BA714D58-0032-4EC8-9FB8-360636FB770C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcClien3", "3_ImplicitFlowAuthentication\MvcClient\MvcClien3\MvcClien3.csproj", "{488A5BB9-1674-4535-9015-070957076450}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClien3", "3_ImplicitFlowAuthentication\MvcClient\MvcClien3\MvcClien3.csproj", "{488A5BB9-1674-4535-9015-070957076450}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5_HybridFlowAuthenticationWithApiAccess", "5_HybridFlowAuthenticationWithApiAccess", "{B67A1B34-29C2-44BE-A677-64D5A0A6ACB3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{A0866DD4-52E0-4B69-9F65-B802A66257CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer5", "5_HybridFlowAuthenticationWithApiAccess\IdentityServer\IdentityServer5\IdentityServer5.csproj", "{EE5FFA63-079F-4500-AAD8-72B7333AD198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer5", "5_HybridFlowAuthenticationWithApiAccess\IdentityServer\IdentityServer5\IdentityServer5.csproj", "{EE5FFA63-079F-4500-AAD8-72B7333AD198}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MvcClient", "MvcClient", "{6862749F-258A-4947-A9D0-D580E769611C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcClient5", "5_HybridFlowAuthenticationWithApiAccess\MvcClient\MvcClient5\MvcClient5.csproj", "{8E1EF274-2A6B-4C51-9023-18DDFE5829C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClient5", "5_HybridFlowAuthenticationWithApiAccess\MvcClient\MvcClient5\MvcClient5.csproj", "{8E1EF274-2A6B-4C51-9023-18DDFE5829C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{CD607F01-A46F-48F2-9ED4-5DC700219766}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api5", "5_HybridFlowAuthenticationWithApiAccess\Api\Api5\Api5.csproj", "{A586AECB-6DEA-4617-92D1-0AC14F6B45CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api5", "5_HybridFlowAuthenticationWithApiAccess\Api\Api5\Api5.csproj", "{A586AECB-6DEA-4617-92D1-0AC14F6B45CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{B237A12C-24C4-4281-87CD-43926E2C5CA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client5", "5_HybridFlowAuthenticationWithApiAccess\Client\Client5\Client5.csproj", "{AC5E598C-0F19-498E-BE38-E4E7B1638528}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client5", "5_HybridFlowAuthenticationWithApiAccess\Client\Client5\Client5.csproj", "{AC5E598C-0F19-498E-BE38-E4E7B1638528}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResourceOwnerClient", "ResourceOwnerClient", "{FF6BBA02-7B28-4615-B072-FEA73FD857F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceOwnerClient5", "5_HybridFlowAuthenticationWithApiAccess\ResourceOwnerClient\ResourceOwnerClient5\ResourceOwnerClient5.csproj", "{C2A5C547-24E1-49F4-BEE6-0EF65BABA63C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResourceOwnerClient5", "5_HybridFlowAuthenticationWithApiAccess\ResourceOwnerClient\ResourceOwnerClient5\ResourceOwnerClient5.csproj", "{C2A5C547-24E1-49F4-BEE6-0EF65BABA63C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6_JavaScriptClient", "6_JavaScriptClient", "{75D08564-07DE-4A6D-8382-623A2D36FB28}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{5123CD27-C892-413D-9FF3-172E573EA126}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer6", "6_JavaScriptClient\IdentityServer\IdentityServer6\IdentityServer6.csproj", "{4B86D233-AE19-4820-9D23-ADC19597D576}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer6", "6_JavaScriptClient\IdentityServer\IdentityServer6\IdentityServer6.csproj", "{4B86D233-AE19-4820-9D23-ADC19597D576}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JavaScriptClient", "JavaScriptClient", "{E2F0286C-81D0-4C75-8172-07993C809D69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptClient6", "6_JavaScriptClient\JavaScriptClient\JavaScriptClient6\JavaScriptClient6.csproj", "{FA5DCC61-4338-4BEA-BEE1-27E3C4A0362B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaScriptClient6", "6_JavaScriptClient\JavaScriptClient\JavaScriptClient6\JavaScriptClient6.csproj", "{FA5DCC61-4338-4BEA-BEE1-27E3C4A0362B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{C7D87EF0-9508-4293-BE17-97CECE42D8AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api6", "6_JavaScriptClient\Api\Api6\Api6.csproj", "{89C6F94A-A13C-478D-9F23-80F8877B5887}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api6", "6_JavaScriptClient\Api\Api6\Api6.csproj", "{89C6F94A-A13C-478D-9F23-80F8877B5887}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MvcClient", "MvcClient", "{048B62F6-F01C-4AF1-8690-A66E70379287}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResourceOwnerClient", "ResourceOwnerClient", "{60DE1438-AD95-4D92-8A04-6921097DC38D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClient6", "6_JavaScriptClient\MvcClient\MvcClient6\MvcClient6.csproj", "{AF0B8D87-7222-4ABE-B6B8-7630D1F176BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResourceOwnerClient6", "6_JavaScriptClient\ResourceOwnerClient\ResourceOwnerClient6\ResourceOwnerClient6.csproj", "{26185823-1283-4E52-98E9-3885587B8D11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{147E0764-2C92-4CDD-8547-DA97FBE66ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client6", "6_JavaScriptClient\Client\Client6\Client6.csproj", "{E0BE911B-0875-4376-BB71-249716DA0627}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,6 +191,18 @@ Global
 		{89C6F94A-A13C-478D-9F23-80F8877B5887}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89C6F94A-A13C-478D-9F23-80F8877B5887}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89C6F94A-A13C-478D-9F23-80F8877B5887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0B8D87-7222-4ABE-B6B8-7630D1F176BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0B8D87-7222-4ABE-B6B8-7630D1F176BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0B8D87-7222-4ABE-B6B8-7630D1F176BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0B8D87-7222-4ABE-B6B8-7630D1F176BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26185823-1283-4E52-98E9-3885587B8D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26185823-1283-4E52-98E9-3885587B8D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26185823-1283-4E52-98E9-3885587B8D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26185823-1283-4E52-98E9-3885587B8D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0BE911B-0875-4376-BB71-249716DA0627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0BE911B-0875-4376-BB71-249716DA0627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0BE911B-0875-4376-BB71-249716DA0627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0BE911B-0875-4376-BB71-249716DA0627}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -224,6 +248,12 @@ Global
 		{FA5DCC61-4338-4BEA-BEE1-27E3C4A0362B} = {E2F0286C-81D0-4C75-8172-07993C809D69}
 		{C7D87EF0-9508-4293-BE17-97CECE42D8AA} = {75D08564-07DE-4A6D-8382-623A2D36FB28}
 		{89C6F94A-A13C-478D-9F23-80F8877B5887} = {C7D87EF0-9508-4293-BE17-97CECE42D8AA}
+		{048B62F6-F01C-4AF1-8690-A66E70379287} = {75D08564-07DE-4A6D-8382-623A2D36FB28}
+		{60DE1438-AD95-4D92-8A04-6921097DC38D} = {75D08564-07DE-4A6D-8382-623A2D36FB28}
+		{AF0B8D87-7222-4ABE-B6B8-7630D1F176BC} = {048B62F6-F01C-4AF1-8690-A66E70379287}
+		{26185823-1283-4E52-98E9-3885587B8D11} = {60DE1438-AD95-4D92-8A04-6921097DC38D}
+		{147E0764-2C92-4CDD-8547-DA97FBE66ABD} = {75D08564-07DE-4A6D-8382-623A2D36FB28}
+		{E0BE911B-0875-4376-BB71-249716DA0627} = {147E0764-2C92-4CDD-8547-DA97FBE66ABD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {606F19C7-D232-4C21-B5EF-7E85E5CFA696}
