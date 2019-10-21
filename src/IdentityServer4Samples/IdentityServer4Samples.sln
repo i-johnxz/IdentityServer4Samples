@@ -111,6 +111,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer7", "7_EntityFrameworkStorage\IdentityServer\IdentityServer7\IdentityServer7.csproj", "{5BD48C92-1AC9-42AD-A45D-FF955C367BD1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8_AspNetIdentity", "8_AspNetIdentity", "{F2DD2DE0-1EDB-4578-AF4C-F96177A7FD7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServerAspNetIdentity", "IdentityServerAspNetIdentity", "{4008AC1F-7886-4573-A76C-ECE631F91BB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerAspNetIdentity8", "8_AspNetIdentity\IdentityServerAspNetIdentity\IdentityServerAspNetIdentity8\IdentityServerAspNetIdentity8.csproj", "{D4E00124-521A-4E70-96AB-268AAC4EAF7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +219,10 @@ Global
 		{5BD48C92-1AC9-42AD-A45D-FF955C367BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BD48C92-1AC9-42AD-A45D-FF955C367BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BD48C92-1AC9-42AD-A45D-FF955C367BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E00124-521A-4E70-96AB-268AAC4EAF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E00124-521A-4E70-96AB-268AAC4EAF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E00124-521A-4E70-96AB-268AAC4EAF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E00124-521A-4E70-96AB-268AAC4EAF7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -266,6 +276,8 @@ Global
 		{E0BE911B-0875-4376-BB71-249716DA0627} = {147E0764-2C92-4CDD-8547-DA97FBE66ABD}
 		{DE0DCC28-2DD5-45FD-B0D7-184C3B7F56CD} = {E91DB2B0-47D5-44A9-B80E-8E4C46F3BAB9}
 		{5BD48C92-1AC9-42AD-A45D-FF955C367BD1} = {DE0DCC28-2DD5-45FD-B0D7-184C3B7F56CD}
+		{4008AC1F-7886-4573-A76C-ECE631F91BB2} = {F2DD2DE0-1EDB-4578-AF4C-F96177A7FD7B}
+		{D4E00124-521A-4E70-96AB-268AAC4EAF7A} = {4008AC1F-7886-4573-A76C-ECE631F91BB2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {606F19C7-D232-4C21-B5EF-7E85E5CFA696}
